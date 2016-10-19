@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:popupTheme="@style/AppTheme.PopupOverlay"
+    android:weightSum="2"
+    android:background="#f2434040">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="保存图片"
+        android:id="@+id/textView_sava_bitmap"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:textSize="15sp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="#ffffff"
+        android:background="?android:selectableItemBackground" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="取消操作"
+        android:id="@+id/textView_back"
+        android:layout_gravity="center_horizontal"
+        android:layout_weight="1"
+        android:textSize="15sp"
+        android:gravity="center_vertical|center_horizontal"
+        android:textColor="#ffffff"
+        android:background="?android:selectableItemBackground" />
+</LinearLayout>
